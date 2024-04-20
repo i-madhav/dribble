@@ -1,3 +1,5 @@
+# While running this app it will take some thing performing due to database issuse . Thanks for considration
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
