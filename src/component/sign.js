@@ -39,7 +39,7 @@ const SignUpInput = () => {
         console.log(payload);
 
         try {
-            const response = await fetch(`http://localhost:8000/api/v1/users/signup`, {
+            const response = await fetch(`https://dribbleback-2.onrender.com/api/v1/users/signup`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

@@ -9,7 +9,7 @@ export const Options = () => {
 
         async function handleEmail (){
                 try {
-                    const response = await fetch('http://localhost:8000/api/v1/users/email');
+                    const response = await fetch('https://dribbleback-2.onrender.com/api/v1/users/email');
                     if (response.ok) {
                         console.log('Email sent successfully');
                     } else {

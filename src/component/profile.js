@@ -80,7 +80,7 @@ const ImageUpload = () => {
                 const formData = new FormData();
                 formData.append('imageUrl', file); // Change 'file' to 'imageUrl'
                 formData.append('location', location);
-                const response = await fetch('http://localhost:8000/api/v1/users/profile', {
+                const response = await fetch('https://dribbleback-2.onrender.com/api/v1/users/profile', {
                     method: 'POST',
                     body: formData
                 });
